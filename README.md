@@ -1,81 +1,80 @@
-# 🎮 Dashboard de Vendas do Xbox - Excel Interativo
+# 🎮 Dashboard de Vendas do Xbox (Excel Interativo)
 
-Projeto desenvolvido para visualização e análise estratégica das vendas de produtos da linha **Xbox**, utilizando **Microsoft Excel** com recursos visuais e gráficos dinâmicos.
+Projeto analítico desenvolvido com foco em **Business Intelligence** utilizando o **Microsoft Excel**, voltado à visualização e compreensão estratégica dos dados de vendas de produtos da linha **Xbox**.
 
-## 📊 Visão Geral
-
-Este dashboard oferece uma interface intuitiva e profissional para explorar métricas de vendas por:
-- Região
-- Produto
-- Data
-- Vendedor
-- Canal de venda
-
-Inclui gráficos dinâmicos e visuais interativos que auxiliam na tomada de decisões baseadas em dados.
+🔧 Criado com automação Python, este dashboard é ideal para gestores, analistas e consultores que desejam extrair insights valiosos de forma visual e interativa.
 
 ---
 
-## ✅ Funcionalidades
+## 📌 Objetivo
 
-- **Gráfico de Colunas**: Receita por Região
-- **Gráfico de Pizza**: Distribuição de Receita por Produto
-- **Gráfico de Linha**: Tendência de Receita por Data
-- **Base estruturada**: pronta para uso com Tabelas Dinâmicas e Segmentações
-- **Categorização temporal automática** (por data de venda)
-- **Estética corporativa** inspirada em design de dashboards de BI
+Desenvolver um **dashboard dinâmico e visualmente atrativo**, capaz de apresentar indicadores e métricas-chave como:
+
+- Receita total por região e produto
+- Distribuição percentual de vendas
+- Tendência de crescimento ao longo do tempo
+- Base de dados pronta para **Tabelas Dinâmicas** e análises personalizadas
 
 ---
 
-## 📁 Estrutura do Arquivo
+## 📊 Principais Funcionalidades
 
-- `Base_Vendas`: tabela com as colunas:
-  - Data da Venda
-  - Produto
-  - Região
-  - Canal
-  - Vendedor
-  - Quantidade
-  - Preço Unitário
-  - Receita Total
-- Três gráficos dinâmicos incorporados na planilha:
-  - Receita por Região (colunas)
-  - Receita por Produto (pizza)
-  - Receita por Data (linha)
+- ✅ **Gráfico de Colunas**: Receita por Região
+- ✅ **Gráfico de Pizza**: Participação de Receita por Produto
+- ✅ **Gráfico de Linha**: Evolução da Receita por Data
+- ✅ **Base tratada** com datas, valores numéricos e campos categóricos prontos para análise
+- ✅ **Integração 100% com Excel** — compatível com Excel 2016 ou superior
 
 ---
 
 ## 🛠️ Tecnologias Utilizadas
 
-- **Microsoft Excel 365**
-- **Python 3.11** com `pandas` e `xlsxwriter` para geração automatizada
-- **Visual Corporativo** customizado para InNovaIdeia Assessoria em Tecnologia ®
+| Tecnologia        | Função                                |
+|-------------------|----------------------------------------|
+| Python 3.11        | Automação e geração de dados           |
+| pandas            | Manipulação e agrupamento dos dados    |
+| xlsxwriter        | Geração programática do Excel e gráficos |
+| Microsoft Excel   | Interface visual e análises interativas |
 
 ---
 
-## 🚀 Como Usar
+## 📁 Estrutura do Projeto
 
-1. Baixe o arquivo Excel gerado:  
-   [Dashboard_Vendas_Xbox_Completo_InNovaIdeia.xlsx](./Dashboard_Vendas_Xbox_Completo_InNovaIdeia.xlsx)
-
-2. Abra com Microsoft Excel (recomendado: versão 2016 ou superior)
-
-3. Explore os gráficos e utilize filtros ou crie Tabelas Dinâmicas com a base fornecida
+📂 dashboard-xbox ├── Dashboard_Vendas_Xbox_Completo_InNovaIdeia.xlsx  # Arquivo com dashboard ├── dashboard_xbox_excel.py                          # Script Python automatizador └── README.md                                        # Documentação do projeto
 
 ---
 
-## 📌 Autor
+## 🚀 Como Utilizar
 
-Desenvolvido por **Dione Castro Alves**  
-🔹 Consultor Tecnológico | Desenvolvedor Full Stack  
-🔹 Founder da [InNovaIdeia Assessoria em Tecnologia ®](https://innovaideia-github-io.vercel.app)
+1. Baixe o arquivo:  
+   [`Dashboard_Vendas_Xbox_Completo_InNovaIdeia.xlsx`](./Dashboard_Vendas_Xbox_Completo_InNovaIdeia.xlsx)
 
----
+2. Abra no Microsoft Excel (recomendado: Office 365 ou superior)
 
-## 📬 Contato
+3. Explore os gráficos e use os filtros para simular cenários
 
-📧 dionecastroalves@gmail.com  
-🌐 [Portfólio Profissional](https://innovaideia-github-io.vercel.app)
+4. Use Tabelas Dinâmicas com a base para novas análises
 
 ---
 
-> Projeto desenvolvido para fins educacionais, apresentações empresariais e análise estratégica com Excel.
+## 🧠 Benefícios do Dashboard
+
+- Facilita a **tomada de decisões baseada em dados**
+- Ajuda a identificar **tendências regionais e comportamentos de compra**
+- Permite **análises em tempo real com poucos cliques**
+- Escalável e reutilizável para diferentes produtos ou marcas
+
+---
+
+## 👨‍💻 Autor
+
+**Dione Castro Alves**  
+Consultor Tecnológico | Especialista em IA, Django & Flask  
+Founder da **InNovaIdeia Assessoria em Tecnologia ®**
+
+🌐 [Visite meu portfólio](https://innovaideia-github-io.vercel.app)  
+📧 dionecastroalves@gmail.com
+
+---
+
+> 🚀 Transformando dados em inteligência estratégica com inovação, automação e excelência visual.
